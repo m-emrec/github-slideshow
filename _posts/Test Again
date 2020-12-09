@@ -1,0 +1,34 @@
+
+class commandCenter():
+    """
+    Summary or Description of the Function
+
+    :param command_block : command_bolğu objesi
+    :param all_content : Tüm sayfanın içeriği
+    :type all_content : dict 
+    https://www.datacamp.com/community/tutorials/docstrings-python 
+    bunu oku ve açıklama yaz buraya .
+
+    Önemli NOT !!!!!!!!!!!!!!!!1 :
+        Tüm sayfa içeriğini sürekli olarak for ile gezmeme gerek yok sadece bir defa gez sayfa içeriğini all_content'e at ve 
+        sonrasında sadece sayfanın içerisindeki eleman sayısını kontrol et eğer değişirse  o zaman tekrardan for ile dön.
+        NOT : 
+            todo list objeleri sıkıntı yaratabilir.
+                O yüzden üzerlerinde bir değişklik yaptığım zaman bu değişikliğin id'lerine atanıp atanmadığına bakmalıyım.
+         
+
+    asd
+    """
+
+    def __init__(self,command_block,client,mainPage,all_content):
+        self.commandBlock = command_block
+        self.client = client
+        self.mainPage = mainPage
+        self.all_content = all_content
+    
+    def read_code(self,code):
+        pass
+    
+    def delete(self,obj,kill_all_family = False):
+        pass
+
